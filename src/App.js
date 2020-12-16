@@ -29,7 +29,7 @@ function App() {
     /** Call API during the page loads */
     useEffect(() => {
       fetch(
-        `http://demo0242938.mockable.io/todo`,
+        `https://demo0242938.mockable.io/todo`,
         {
           method: "GET",
           headers: new Headers({
